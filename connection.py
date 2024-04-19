@@ -1,7 +1,7 @@
 import socket
 
 def main():
-    host = "127.0.0.1"  # localhost
+    host = "172.30.1.129"  # localhost
     port = 55556
 
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
